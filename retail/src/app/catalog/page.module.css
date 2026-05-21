@@ -1,0 +1,145 @@
+.page {
+  padding: 84px 0 124px;
+  background-color: #f5f5f5;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.filters {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 16px;
+  width: 924px;
+  margin: 0 auto 60px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.label {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #8d929a;
+}
+
+.mileage-group {
+  display: flex;
+}
+
+.mileage-input {
+  width: 160px;
+  height: 44px;
+  padding: 12px 24px;
+  border: none;
+  background-color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #101828;
+  outline: none;
+}
+
+.mileage-input::placeholder {
+  color: #101828;
+}
+
+.mileage-input:hover,
+.mileage-input:focus {
+  background-color: #ffffff;
+}
+
+.from-input {
+  border-right: 1px solid #dadde1;
+  border-radius: 12px 0 0 12px;
+}
+
+.to-input {
+  border-radius: 0 12px 12px 0;
+}
+
+.search-button {
+  width: 156px;
+  height: 44px;
+  border: none;
+  border-radius: 12px;
+  background-color: #00aad4;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #ffffff;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+}
+
+.search-button:hover,
+.search-button:focus {
+  background-color: #0095ba;
+}
+
+.list {
+  width: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 32px;
+  margin: 0 auto 80px;
+}
+
+.load-more-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 156px;
+  height: 44px;
+  margin: 0 auto;
+  border: 1px solid #00aad4;
+  border-radius: 12px;
+  background-color: transparent;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #101828;
+  cursor: pointer;
+  transition: border-color 250ms ease;
+}
+
+.load-more-button:hover,
+.load-more-button:focus {
+  border-color: #0095ba;
+}
+
+.load-more-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding-top: 20px;
+}
+
+.clear-button {
+  width: 156px;
+  border: none;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.33;
+  color: #8d929a;
+  cursor: pointer;
+  transition: color 250ms ease;
+}
+
+.clear-button:hover,
+.clear-button:focus {
+  color: #101828;
+}

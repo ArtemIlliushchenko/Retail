@@ -1,0 +1,75 @@
+.form {
+  width: 640px;
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #ffffff;
+}
+
+.title {
+  margin-bottom: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #101828;
+}
+
+.subtitle {
+  margin-bottom: 24px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #8d929a;
+}
+
+.input,
+.textarea {
+  width: 576px;
+  border: none;
+  border-radius: 12px;
+  background-color: #f7f7f7;
+  padding: 12px 20px;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #101828;
+}
+
+.input {
+  height: 48px;
+  margin-bottom: 16px;
+}
+
+.textarea {
+  height: 88px;
+  resize: none;
+  margin-bottom: 24px;
+}
+
+.input::placeholder,
+.textarea::placeholder {
+  color: #8d929a;
+}
+
+.button {
+  width: 576px;
+  height: 44px;
+  border: none;
+  border-radius: 12px;
+  background-color: #00aad4;
+  cursor: pointer;
+  transition: background-color 250ms ease;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #ffffff;
+}
+
+.button:hover {
+  background-color: #0095ba;
+}
+
+.button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+}

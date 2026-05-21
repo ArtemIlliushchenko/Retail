@@ -1,0 +1,46 @@
+.header {
+  border-bottom: 1px solid #f2f4f7;
+}
+
+.container {
+  max-width: 1440px;
+  height: 68px;
+  margin: 0 auto;
+  padding: 24px 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.link {
+  font-family: "Manrope", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: #101828;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: #3470ff;
+}
+
+.active {
+  color: #3470ff;
+}
+
+.icon {
+  display: block;
+  fill: currentColor;
+}
+
+.icon-rental-car {
+  width: 101px;
+  height: 16px;
+}
